@@ -1,61 +1,87 @@
+body{
+    background-color: rgb(65, 55, 55);
+}
+.container {
+
+background-color: rgb(21, 18, 18);
+padding: 5px;
+ height: 80vh;
+ width: 25vw;
+ margin: auto auto;
+ padding-left: 5%;
+ padding-top: 5%;
+ border-radius: 20px;
+ 
+ 
+    
+}
    
      input{
         background-color: rgb(163, 197, 75);
+       
         
-        width: 250px;
-       height: 50px;
+        /* width: 250px;
+       height: 50px; */
+       width: 80%;
+       height: 10%;
+       text-align: end;
+       font-size: large;
+       font-weight: bold;
+       color: black;
+       
       
     
        
      }
     
-        .container {
-            border: 3px solid rgb(0, 0, 0);
-            background-color: black;
-            padding: 5px;
-         height: 50%;
-         width: 21%;
-         margin: 30px auto;
-         padding-left: 20px;
-         border-radius: 20px;
-            
-        }
         .container button{
             background-color: rgb(25, 23, 23);
             color: white;
             padding: 20px;
             margin: 5px;
+          
+           
         }
      
         .operator{
           
-            width: 40px;
           
-            height: 250px;
-           
+          
+           width: 20%;
+           height: 95%;
+         
 
+        }
+        .numeric{
+            height: 100%;
+       
         }
         #btn-c{
             background-color: red;
             color: white;
-            width: 120px;
-            height: 55px;
+           
+            width: 61%;
+            /* height: 14%; */
+            max-height: 13%;
+            min-height: 13%;
+          
         }
       
         #plus-btn{
-            height: 130px;
+            /* height: 130px; */
+            height: 31%;
         }
         #btn-zero
         {
-            width: 50px;
-        }
+            width: 52px;
+        } 
 
 
-        
-     .container input[placeholder="98649"]{
-        color: rgb(0, 0, 0);
-        
-     }
+  
      #eql-btn{
         background-color: rgb(63, 63, 235);
+      
+     }
+     #dot-btn{
+        padding: 11%;
      }

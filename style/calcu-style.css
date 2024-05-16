@@ -1,0 +1,52 @@
+.continer{
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+    /* grid-template-rows: 300px 300px 300px; */
+    grid-template-rows: repeat(6,60px);
+
+    grid-auto-rows: 60px;
+
+    /* height: 250px;
+    width: 200px; */
+
+    justify-content: center;
+    align-content: center;
+    border: 2px solid red;
+
+    grid-gap: 10px;
+    padding: 40px;
+  background-color: #000000;
+}
+#btn-c{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   background-color: red;
+}
+
+#btn-plus{
+    grid-column-start: 4;
+    grid-column-end: 5; 
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.continer > button{
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid rgb(89, 77, 77);
+    box-shadow: 1px 1px 0px  #1b1717;
+}
+
+#input-box{
+    grid-column-start: 1;
+    grid-column-end: 5; 
+    text-align: end;
+    background-color: #a5eb5b;
+    font-weight: bold;
+    color: #000000;
+}
+
+#btn-equal{
+   background-color:#1948f5;!important;
+   
+}
+
